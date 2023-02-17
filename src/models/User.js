@@ -5,6 +5,4 @@ let User = sequelize.define('user', {
     email: Sequelize.STRING
 })
 
-module.exports = {
-    User
-};
+module.exports = User;

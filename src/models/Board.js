@@ -6,6 +6,4 @@ let Board = sequelize.define('board', {
     rating: Sequelize.NUMBER
 })
 
-module.exports = {
-    Board
-};
+module.exports = Board;

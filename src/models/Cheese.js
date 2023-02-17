@@ -5,6 +5,4 @@ let Cheese = sequelize.define('cheese', {
     description: Sequelize.STRING
 })
 
-module.exports = {
-    Cheese
-};
+module.exports = Cheese;
